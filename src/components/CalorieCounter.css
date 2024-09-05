@@ -1,0 +1,106 @@
+/* src/components/CalorieCounter.css */
+
+/* General Styles */
+.calorie-counter {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  text-align: center;
+  background: linear-gradient(to bottom, #2e2e2e, #4f4f4f);
+  min-height: 100vh;
+  padding: 30px;
+}
+
+/* Headings */
+.calorie-counter h2 {
+  color: #fff;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Input Fields */
+.calorie-counter input {
+  width: calc(50% - 26px);
+  padding: 12px;
+  margin: 10px 10px 10px 0;
+  border-radius: 8px;
+  border: 1px solid #666;
+  background-color: #555;
+  color: #fff;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.calorie-counter input::placeholder {
+  color: #aaa;
+}
+
+/* Button */
+.calorie-counter button {
+  width: calc(50% - 26px);
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.calorie-counter button:hover {
+  background-color: #218838;
+}
+
+/* Table */
+.calorie-counter table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.calorie-counter th, .calorie-counter td {
+  padding: 12px;
+  border: 1px solid #666;
+  text-align: center;
+  font-size: 16px;
+}
+
+.calorie-counter th {
+  background-color: #555;
+  color: #fff;
+}
+
+.calorie-counter tr:nth-child(even) {
+  background-color: #444;
+}
+
+.calorie-counter tr:nth-child(odd) {
+  background-color: #333;
+}
+
+/* Paragraphs */
+.calorie-counter p {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  color: #eee;
+}
+
+/* Diet Recommendation Section */
+.diet-recommendation {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #555;
+  border-radius: 8px;
+}
+
+.diet-recommendation h3 {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.diet-recommendation p {
+  font-size: 18px;
+  color: #ccc;
+}

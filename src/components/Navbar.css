@@ -1,0 +1,39 @@
+/* src/components/Navbar.css */
+nav {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b); /* Warm orange to peach gradient */
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  nav ul li a.active {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    border-radius: 4px;
+  }
+      

@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:black;
+    color: #e0e0e0; /* Light text color for better contrast */
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:black;
+}
+
+.login-box {
+    background-color: #1e1e1e; /* Dark background for the box */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* Darker shadow for better contrast */
+    text-align: center;
+    width: 320px;
+    max-width: 90%;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    color: #e0e0e0; /* Light text color for better readability */
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #b0b0b0; /* Slightly lighter text color for labels */
+    font-weight: 500;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #333; /* Dark border */
+    background-color: #333; /* Dark background for input fields */
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #e0e0e0; /* Light text color for inputs */
+    font-size: 16px;
+}
+
+.input-group input:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+.login-button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.login-button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+.login-button:active {
+    background-color: #1f5a7f;
+    transform: scale(1);
+}
+
+/* Styles for the Next button */
+.next-button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #2ecc71; /* Green color for the Next button */
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px; /* Add some space between the buttons */
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.next-button:hover {
+    background-color: #27ae60;
+    transform: scale(1.05);
+}
+
+.next-button:active {
+    background-color: #1e8449;
+    transform: scale(1);
+}

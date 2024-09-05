@@ -1,0 +1,62 @@
+/* src/components/Home.css */
+.home {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(to bottom, #1a1a1a, #4a4a4a);
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .hero {
+    background: linear-gradient(to right, #DECBA4, #3E5151);
+    color: #fff;
+    padding: 100px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
+  
+  .info-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .info-container p, .info-container ul {
+    margin: 15px 0;
+    line-height: 1.6;
+  }
+  
+  .info-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .info-container ul li {
+    background-color: #555;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  
+  .info-container h2 {
+    margin-top: 0;
+    color: #fff;
+  }
+  
+  /* Media Query for larger screens */
+  @media (min-width: 1024px) {
+    .home {
+      max-width: 1200px; /* Adjust max-width for larger screens */
+      margin: 0 auto;
+    }
+  }
+  
