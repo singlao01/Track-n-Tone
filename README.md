@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+WHAT'S NEXT?
+We will add on the login page and storage for BMI data in further evaluations.
+
 ## Available Scripts
 
 In the project directory, you can run:
